@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest id="MSMELMS" title="MSMELMS" xmlns="http://learnityframework.org/">
-    <interface id="LoginPage" title="LoginPage" type="Interface" zip="LoginPage.zip"/>
-    <interface id="LearnityPortal" title="LearnityPortal"
+    <interface id="LoginPage" title="LMS LoginPage" type="Interface" zip="LoginPage.zip"/>
+    <interface id="LMSPortal" title="LMS Portal"
         type="Interface" zip="LearnityPortal.zip"/>
     <interface id="PortalUnit" title="PortalUnit"
         type="InterfaceFragment" zip="PortalUnit.zip"/>
-    <interface id="LearnityAdmin" title="LMS Administration"
-        type="Interface" zip="LearnityAdmin.zip"/>
+    <interface id="LMSAdmin" title="LMS Administration"
+        type="Interface" zip="LMSAdmin.zip"/>
     <interface id="UserCreation" title="LMS User Creation"
         type="Interface" zip="UserCreation.zip"/>
     <interface id="ShowUserProfile" title="LMS User Profile Change"

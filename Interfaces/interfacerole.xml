@@ -21,7 +21,7 @@
             <style id="ChangeProfilestyle"/>
             <behaviour id="ChangeProfileBeha"/>
         </interface>
-        <interface id="LearnityPortal">
+        <interface id="LMSPortal">
             <layout id="Portallayout"/>
             <content id="Portalcontent"/>
             <style id="Portalstyle"/>
@@ -54,7 +54,7 @@
         </interface>
     </role>
     <role id="ADMIN">
-        <interface id="LearnityAdmin">
+        <interface id="LMSAdmin">
             <layout id="adminPrime"/>
             <content id="adminPrimeContent"/>
             <style id="adminPrimeStyle"/>
