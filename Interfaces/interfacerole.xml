@@ -30,27 +30,36 @@
         <interface id="PortalUnit">
             <layout id="portalunitstudentlayout"/>
         </interface>
-       <interface id="DeliveryEngine">
+         <interface id="PortalForum">
+            <layout id="portalforumgridlayout"/>
+        </interface>
+		<interface id="DeliveryEngine">
             <layout id="DeliveryEnginelayout"/>
             <content id="DeliveryEnginecontent"/>
             <style id="DeliveryEnginestyle"/>
             <behaviour id="DeliveryEnginebehaviour"/>
         </interface>
-       <interface id="DeliveryHomePage">
+		<interface id="DeliveryHomePage">
             <layout id="DeliveryHomePageLayout"/>
             <behaviour id="DeliveryHomePageBehaviour"/>
         </interface>
-       <interface id="NoteBook">
+		<interface id="NoteBook">
             <layout id="notebooklayout1"/>
             <content id="notebookcontent1"/>
             <style id="notebookstyle1"/>
             <behaviour id="notebookevents1"/>
         </interface>
-       <interface id="NotebookAttach">
+		<interface id="NotebookAttach">
             <layout id="nbattachlt1"/>
             <content id="nbattachcontent1"/>
             <style id="nbattachstyle1"/>
             <behaviour id="nbattachevents1"/>
+        </interface>
+		<interface id="Forum">
+            <layout id="forumPrime"/>
+            <content id="forumPrimeContent"/>
+            <style id="forumPrimeStyle"/>
+            <behaviour id="forumPrimeBehaviour"/>
         </interface>
     </role>
     <role id="ADMIN">

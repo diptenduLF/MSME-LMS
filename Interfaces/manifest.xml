@@ -3,8 +3,12 @@
     <interface id="LoginPage" title="LMS LoginPage" type="Interface" zip="LoginPage.zip"/>
     <interface id="LMSPortal" title="LMS Portal"
         type="Interface" zip="LearnityPortal.zip"/>
-    <interface id="PortalUnit" title="PortalUnit"
+    <interface id="PortalUnit" title="Unit Grid on LMS Portal"
         type="InterfaceFragment" zip="PortalUnit.zip"/>
+    <interface id="PortalForum" title="Forum Grid on LMS Portal"
+        type="InterfaceFragment" zip="PortalForum.zip"/>
+    <interface id="Forum" title="LMS Forum"
+        type="Interface" zip="Forum.zip"/>
     <interface id="LMSAdmin" title="LMS Administration"
         type="Interface" zip="LMSAdmin.zip"/>
     <interface id="UserCreation" title="LMS User Creation"
