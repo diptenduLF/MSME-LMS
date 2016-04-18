@@ -30,10 +30,16 @@
         <interface id="PortalUnit">
             <layout id="portalunitstudentlayout"/>
         </interface>
-         <interface id="PortalForum">
+        <interface id="PortalForum">
             <layout id="portalforumgridlayout"/>
         </interface>
-		<interface id="DeliveryEngine">
+        <interface id="PortalAssessment">
+            <layout id="portalasmtgridlayout"/>
+            <content id="portalasmtgridcontent"/>
+            <style id="portalasmtgridstayle"/>
+            <behaviour id="portalasmtgridbehaviour"/>
+        </interface>
+ 		<interface id="DeliveryEngine">
             <layout id="DeliveryEnginelayout"/>
             <content id="DeliveryEnginecontent"/>
             <style id="DeliveryEnginestyle"/>
