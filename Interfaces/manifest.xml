@@ -11,6 +11,8 @@
         type="Interface" zip="Forum.zip"/>
     <interface id="PortalAssessment" title="Assessment Grid on LMS Portal"
         type="InterfaceFragment" zip="PortalAssessment.zip"/>
+    <interface id="PortalNotice" title="Notice Grid on LMS Portal"
+        type="InterfaceFragment" zip="PortalNotice.zip"/>
     <interface id="LMSAdmin" title="LMS Administration"
         type="Interface" zip="LMSAdmin.zip"/>
     <interface id="UserCreation" title="LMS User Creation"

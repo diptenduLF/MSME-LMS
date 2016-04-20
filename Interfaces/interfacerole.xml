@@ -39,6 +39,10 @@
             <style id="portalasmtgridstayle"/>
             <behaviour id="portalasmtgridbehaviour"/>
         </interface>
+        <interface id="PortalNotice">
+            <layout id="portalnoticegridlayout"/>
+            <behaviour id="portalnoticegridbehaviour"/>
+        </interface>
  		<interface id="DeliveryEngine">
             <layout id="DeliveryEnginelayout"/>
             <content id="DeliveryEnginecontent"/>
