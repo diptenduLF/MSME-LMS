@@ -8,6 +8,160 @@
             <behaviour id="Loginbehaviour"/>
         </interface>
     </role>
+    <role id="ADMIN">
+        <interface id="ChangePassword">
+            <layout id="ChangePasswordLay"/>
+            <content id="ChangePasswordCont"/>
+            <style id="ChangePasswordstyle"/>
+            <behaviour id="ChangePasswordBeha"/>
+        </interface>
+        <interface id="ChangeProfile">
+            <layout id="ChangeProfileLay"/>
+            <content id="ChangeProfileCont"/>
+            <style id="ChangeProfilestyle"/>
+            <behaviour id="ChangeProfileBeha"/>
+        </interface>
+        <interface id="DeliveryEngine">
+            <layout id="DeliveryEnginelayout"/>
+            <content id="DeliveryEnginecontent"/>
+            <style id="DeliveryEnginestyle"/>
+            <behaviour id="DeliveryEnginebehaviour"/>
+        </interface>
+        <interface id="DeliveryHomePage">
+            <layout id="DeliveryHomePageLayout"/>
+            <behaviour id="DeliveryHomePageBehaviour"/>
+        </interface>
+        <interface id="DynaInfoBy">
+            <layout id="DynaInfoByLayout"/>
+            <content id="DynaInfoByContent"/>
+            <behaviour id="DynaInfoByBehaviour"/>
+        </interface>
+        <interface id="ForumAdmin">
+            <layout id="falayout"/>
+            <content id="facontent"/>
+            <style id="fastyle"/>
+            <behaviour id="faevents"/>
+        </interface>
+        <interface id="ForumDynamicInfo">
+            <layout id="fdinfoalayout"/>
+            <content id="fdinfocontent"/>
+            <style id="fdinfostyle"/>
+            <behaviour id="fdinfoevent"/>
+        </interface>
+        <interface id="ForumMsgMgmt">
+            <layout id="ForumMsgMgmtAdminLayout"/>
+            <content id="ForumMsgMgmtAdminContent"/>
+            <style id="ForumMsgMgmtAdminStyle"/>
+            <behaviour id="ForumMsgMgmtAdminBehaviour"/>
+        </interface>
+        <interface id="ForumRegByGroup">
+            <layout id="ForumRegByGroupAdminLayout"/>
+            <content id="ForumRegByGroupAdminContent"/>
+            <style id="forumreggroupstyle"/>
+            <behaviour id="ForumRegByGroupAdminBehaviour"/>
+        </interface>
+        <interface id="ForumRegByUser">
+            <layout id="ForumRegByUserAdminLayout"/>
+            <content id="ForumRegByUserAdminContent"/>
+            <style id="forumreguserstyle"/>
+            <behaviour id="ForumRegByUserAdminBehaviour"/>
+        </interface>
+        <interface id="forumReport">
+            <layout id="forumReportLayout"/>
+            <content id="forumReportContent"/>
+            <style id="forumReportStyle"/>
+            <behaviour id="forumReportBehaviour"/>
+        </interface>
+        <interface id="GroupAccessMgmt">
+            <layout id="GroupAccessMgmtLayout"/>
+            <content id="GroupAccessMgmtContent"/>
+            <behaviour id="GroupAccessMgmtBehaviour"/>
+        </interface>
+        <interface id="GroupUserReg">
+            <layout id="GroupUserRegLayout"/>
+            <content id="GroupUserRegContent"/>
+            <behaviour id="GroupUserRegBehaviour"/>
+        </interface>
+        <interface id="LMSAdmin">
+            <layout id="adminPrime"/>
+            <content id="adminPrimeContent"/>
+            <style id="adminPrimeStyle"/>
+            <behaviour id="adminPrimeBehaviour"/>
+        </interface>
+        <interface id="ManageUnitAdmin">
+            <layout id="ManageUnitAdminLayout"/>
+        </interface>
+        <interface id="ManageUnitHomePage">
+            <layout id="defaultLayout"/>
+            <content id="defaultContent"/>
+            <style id="defaultStyle"/>
+            <behaviour id="defaultBehaviour"/>
+        </interface>
+        <interface id="ManageUnitInformation">
+            <layout id="ManageUnitInformationLayout"/>
+            <content id="ManageUnitInformationContent"/>
+            <behaviour id="ManageUnitInformationBehaviour"/>
+        </interface>
+        <interface id="NotebookMgmt">
+            <layout id="NotebookMgmtlayout"/>
+            <content id="NotebookMgmtcontent"/>
+            <style id="NotebookMgmtstyle"/>
+            <behaviour id="NotebookMgmtbehaviour"/>
+        </interface>
+        <interface id="NoticeBoardAdmin">
+            <layout id="NoticeBoardAdminlay"/>
+            <content id="NoticeBoardAdmincontent"/>
+            <style id="NoticeBoardAdminstyle"/>
+        </interface>
+        <interface id="ShowUserProfile">
+            <layout id="ShowUserProfilelay"/>
+            <content id="ShowUserProfilecontent"/>
+            <style id="ShowUserProfilestyle"/>
+            <behaviour id="ShowUserProfilebehaviour"/>
+        </interface>
+        <interface id="unitImportExport">
+            <layout id="unitImportExportPrime"/>
+            <content id="unitImportExportPrimeContent"/>
+            <style id="unitImportExportPrimeStyle"/>
+            <behaviour id="unitImportExportPrimeBehaviour"/>
+        </interface>
+        <interface id="UnitRegByGroup">
+            <layout id="UnitRegByGroupLayout"/>
+            <content id="UnitRegByGroupContent"/>
+            <behaviour id="UnitRegByGroupBehaviour"/>
+        </interface>
+        <interface id="UnitRegByUser">
+            <layout id="UnitRegByUserLayout"/>
+            <content id="UnitRegByUserContent"/>
+            <behaviour id="UnitRegByUserBehaviour"/>
+        </interface>
+        <interface id="UserAccessMgmt">
+            <layout id="UserAccessMgmtLayout"/>
+            <content id="UserAccessMgmtContent"/>
+            <behaviour id="UserAccessMgmtBehaviour"/>
+        </interface>
+        <interface id="UserChart">
+            <layout id="userChartLay"/>
+            <content id="userChartCont"/>
+        </interface>
+        <interface id="UserCreation">
+            <layout id="usercreationlay"/>
+            <content id="usercreationcontent"/>
+            <style id="UserCreationStyle"/>
+            <behaviour id="usercreationbehaviour"/>
+        </interface>
+        <interface id="UserGroupAdmin">
+            <layout id="UserGroupAdminLayout"/>
+        </interface>
+        <interface id="userReport">
+            <layout id="userReportLay"/>
+            <content id="userReportCont"/>
+            <behaviour id="userReportBeha"/>
+        </interface>
+        <interface id="UserRoleAssociation">
+            <layout id="roleassociationlay"/>
+        </interface>
+    </role>
     <role id="STUDENT">
         <interface id="ChangePassword">
             <layout id="ChangePasswordLay"/>
@@ -21,208 +175,67 @@
             <style id="ChangeProfilestyle"/>
             <behaviour id="ChangeProfileBeha"/>
         </interface>
+        <interface id="DeliveryEngine">
+            <layout id="DeliveryEnginelayout"/>
+            <content id="DeliveryEnginecontent"/>
+            <style id="DeliveryEnginestyle"/>
+            <behaviour id="DeliveryEnginebehaviour"/>
+        </interface>
+        <interface id="DeliveryHomePage">
+            <layout id="DeliveryHomePageLayout"/>
+            <behaviour id="DeliveryHomePageBehaviour"/>
+        </interface>
+        <interface id="Forum">
+            <layout id="forumPrime"/>
+            <content id="forumPrimeContent"/>
+            <style id="forumPrimeStyle"/>
+            <behaviour id="forumPrimeBehaviour"/>
+        </interface>
+        <interface id="ForumReply">
+            <layout id="replylt"/>
+            <content id="replycontent"/>
+            <style id="replystyle"/>
+            <behaviour id="replyevent"/>
+        </interface>
         <interface id="LMSPortal">
             <layout id="Portallayout"/>
             <content id="Portalcontent"/>
             <style id="Portalstyle"/>
             <behaviour id="Portalbehaviour"/>
         </interface>
-        <interface id="PortalUnit">
-            <layout id="portalunitstudentlayout"/>
+        <interface id="NoteBook">
+            <layout id="notebooklayout1"/>
+            <content id="notebookcontent1"/>
+            <style id="notebookstyle1"/>
+            <behaviour id="notebookevents1"/>
         </interface>
-        <interface id="PortalForum">
-            <layout id="portalforumgridlayout"/>
+        <interface id="NotebookAttach">
+            <layout id="nbattachlt1"/>
+            <content id="nbattachcontent1"/>
+            <style id="nbattachstyle1"/>
+            <behaviour id="nbattachevents1"/>
         </interface>
         <interface id="PortalAssessment">
             <layout id="portalasmtgridlayout"/>
             <content id="portalasmtgridcontent"/>
             <behaviour id="portalasmtgridbehaviour"/>
         </interface>
+        <interface id="PortalForum">
+            <layout id="portalforumgridlayout"/>
+        </interface>
         <interface id="PortalNotice">
             <layout id="portalnoticegridlayout"/>
             <behaviour id="portalnoticegridbehaviour"/>
         </interface>
- 		<interface id="DeliveryEngine">
-            <layout id="DeliveryEnginelayout"/>
-            <content id="DeliveryEnginecontent"/>
-            <style id="DeliveryEnginestyle"/>
-            <behaviour id="DeliveryEnginebehaviour"/>
+        <interface id="PortalUnit">
+            <layout id="portalunitstudentlayout"/>
         </interface>
-		<interface id="DeliveryHomePage">
-            <layout id="DeliveryHomePageLayout"/>
-            <behaviour id="DeliveryHomePageBehaviour"/>
-        </interface>
-		<interface id="NoteBook">
-            <layout id="notebooklayout1"/>
-            <content id="notebookcontent1"/>
-            <style id="notebookstyle1"/>
-            <behaviour id="notebookevents1"/>
-        </interface>
-		<interface id="NotebookAttach">
-            <layout id="nbattachlt1"/>
-            <content id="nbattachcontent1"/>
-            <style id="nbattachstyle1"/>
-            <behaviour id="nbattachevents1"/>
-        </interface>
-		<interface id="Forum">
-            <layout id="forumPrime"/>
-            <content id="forumPrimeContent"/>
-            <style id="forumPrimeStyle"/>
-            <behaviour id="forumPrimeBehaviour"/>
+        <interface id="Thread">
+            <layout id="threadPrime"/>
+            <content id="threadPrimeContent"/>
+            <style id="threadPrimeStyle"/>
+            <behaviour id="threadPrimeBehaviour"/>
         </interface>
     </role>
-    <role id="ADMIN">
-        <interface id="LMSAdmin">
-            <layout id="adminPrime"/>
-            <content id="adminPrimeContent"/>
-            <style id="adminPrimeStyle"/>
-            <behaviour id="adminPrimeBehaviour"/>
-        </interface>
-        <interface id="UserCreation">
-            <layout id="usercreationlay"/>
-            <content id="usercreationcontent"/>
-            <style id="UserCreationStyle"/>
-            <behaviour id="usercreationbehaviour"/>
-        </interface>
-        <interface id="ShowUserProfile">
-            <layout id="ShowUserProfilelay"/>
-            <content id="ShowUserProfilecontent"/>
-            <style id="ShowUserProfilestyle"/>
-            <behaviour id="ShowUserProfilebehaviour"/>
-        </interface>
-        <interface id="UserRoleAssociation">
-            <layout id="roleassociationlay"/>
-        </interface>
-        <interface id="ChangeProfile">
-            <layout id="ChangeProfileLay"/>
-            <content id="ChangeProfileCont"/>
-            <style id="ChangeProfilestyle"/>
-            <behaviour id="ChangeProfileBeha"/>
-        </interface>
-         <interface id="ChangePassword">
-            <layout id="ChangePasswordLay"/>
-            <content id="ChangePasswordCont"/>
-            <style id="ChangePasswordstyle"/>
-            <behaviour id="ChangePasswordBeha"/>
-        </interface>
-        <interface id="UserChart">
-            <layout id="userChartLay"/>
-            <content id="userChartCont"/>
-        </interface>
-        <interface id="UserGroupAdmin">
-            <layout id="UserGroupAdminLayout"/>
-        </interface>
-        <interface id="GroupUserReg">
-            <layout id="GroupUserRegLayout"/>
-            <content id="GroupUserRegContent"/>
-            <behaviour id="GroupUserRegBehaviour"/>
-        </interface>
-       <interface id="UserAccessMgmt">
-            <layout id="UserAccessMgmtLayout"/>
-            <content id="UserAccessMgmtContent"/>
-            <behaviour id="UserAccessMgmtBehaviour"/>
-        </interface>
-       <interface id="GroupAccessMgmt">
-            <layout id="GroupAccessMgmtLayout"/>
-            <content id="GroupAccessMgmtContent"/>
-            <behaviour id="GroupAccessMgmtBehaviour"/>
-        </interface>
-       <interface id="DynaInfoBy">
-            <layout id="DynaInfoByLayout"/>
-            <content id="DynaInfoByContent"/>
-            <behaviour id="DynaInfoByBehaviour"/>
-        </interface>
-       <interface id="userReport">
-            <layout id="userReportLay"/>
-            <content id="userReportCont"/>
-            <behaviour id="userReportBeha"/>
-        </interface>
-       <interface id="ManageUnitAdmin">
-            <layout id="ManageUnitAdminLayout"/>
-        </interface>
-       <interface id="UnitRegByUser">
-            <layout id="UnitRegByUserLayout"/>
-            <content id="UnitRegByUserContent"/>
-            <behaviour id="UnitRegByUserBehaviour"/>
-        </interface>
-       <interface id="UnitRegByGroup">
-            <layout id="UnitRegByGroupLayout"/>
-            <content id="UnitRegByGroupContent"/>
-            <behaviour id="UnitRegByGroupBehaviour"/>
-        </interface>
-       <interface id="ManageUnitInformation">
-            <layout id="ManageUnitInformationLayout"/>
-            <content id="ManageUnitInformationContent"/>
-            <behaviour id="ManageUnitInformationBehaviour"/>
-        </interface>
-       <interface id="ManageUnitHomePage">
-            <layout id="defaultLayout"/>
-            <content id="defaultContent"/>
-            <style id="defaultStyle"/>
-            <behaviour id="defaultBehaviour"/>
-        </interface>
-       <interface id="unitImportExport">
-            <layout id="unitImportExportPrime"/>
-            <content id="unitImportExportPrimeContent"/>
-            <style id="unitImportExportPrimeStyle"/>
-            <behaviour id="unitImportExportPrimeBehaviour"/>
-        </interface>
-       <interface id="DeliveryEngine">
-            <layout id="DeliveryEnginelayout"/>
-            <content id="DeliveryEnginecontent"/>
-            <style id="DeliveryEnginestyle"/>
-            <behaviour id="DeliveryEnginebehaviour"/>
-        </interface>
-       <interface id="DeliveryHomePage">
-            <layout id="DeliveryHomePageLayout"/>
-            <behaviour id="DeliveryHomePageBehaviour"/>
-        </interface>
-       <interface id="ForumAdmin">
-            <layout id="falayout"/>
-            <content id="facontent"/>
-            <style id="fastyle"/>
-            <behaviour id="faevents"/>
-        </interface>
-        <interface id="ForumMsgMgmt">
-            <layout id="ForumMsgMgmtAdminLayout"/>
-            <content id="ForumMsgMgmtAdminContent"/>
-            <style id="ForumMsgMgmtAdminStyle"/>
-            <behaviour id="ForumMsgMgmtAdminBehaviour"/>
-        </interface>
-        <interface id="ForumRegByUser">
-            <layout id="ForumRegByUserAdminLayout"/>
-            <content id="ForumRegByUserAdminContent"/>
-            <style id="forumreguserstyle"/>
-            <behaviour id="ForumRegByUserAdminBehaviour"/>
-        </interface>
-        <interface id="ForumRegByGroup">
-            <layout id="ForumRegByGroupAdminLayout"/>
-            <content id="ForumRegByGroupAdminContent"/>
-            <style id="forumreggroupstyle"/>
-            <behaviour id="ForumRegByGroupAdminBehaviour"/>
-        </interface>
-        <interface id="ForumDynamicInfo">
-            <layout id="fdinfoalayout"/>
-            <content id="fdinfocontent"/>
-            <style id="fdinfostyle"/>
-            <behaviour id="fdinfoevent"/>
-        </interface>
-        <interface id="forumReport">
-            <layout id="forumReportLayout"/>
-            <content id="forumReportContent"/>
-            <style id="forumReportStyle"/>
-            <behaviour id="forumReportBehaviour"/>
-        </interface>
-        <interface id="NotebookMgmt">
-            <layout id="NotebookMgmtlayout"/>
-            <content id="NotebookMgmtcontent"/>
-            <style id="NotebookMgmtstyle"/>
-            <behaviour id="NotebookMgmtbehaviour"/>
-        </interface>
-        <interface id="NoticeBoardAdmin">
-            <layout id="NoticeBoardAdminlay"/>
-            <content id="NoticeBoardAdmincontent"/>
-            <style id="NoticeBoardAdminstyle"/>
-        </interface>
-   </role>
 </roles>
+<!--XML is generated on Mon Apr 25 15:14:54 IST 2016-->
