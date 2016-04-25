@@ -2106,7 +2106,7 @@ CREATE TABLE `forum_dynamic_information` (
   `session_id` varchar(50) NOT NULL,
   `logged_in_at` datetime DEFAULT NULL,
   `forum_id` mediumint(9) NOT NULL,
-  PRIMARY KEY (`student_id`,`session_id`),
+  PRIMARY KEY (`student_id`,`session_id`, `forum_id`),
   KEY `forum` (`forum_id`,`student_id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
