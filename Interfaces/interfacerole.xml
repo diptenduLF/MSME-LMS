@@ -257,7 +257,26 @@
         <interface id="QBManagement">
             <layout id="QBManagementLayout"/>
             <content id="QBManagementContent"/>
+            <style id="QBManagementStyle"/>
             <behaviour id="QBManagementBehaviour"/>
+        </interface>
+        <interface id="QBItemManagement">
+            <layout id="QBItemManagementLayout"/>
+            <content id="QBItemManagementContent"/>
+            <style id="QBItemManagementStyle"/>
+            <behaviour id="QBItemManagementBehaviour"/>
+        </interface>
+        <interface id="TopicManagement">
+            <layout id="TopicManagementLayout"/>
+        </interface>
+        <interface id="QBTopicAssociation">
+            <layout id="QBTopicAssociationLayout"/>
+            <content id="QBTopicAssociationContent"/>
+            <style id="QBTopicAssociationStyle"/>
+            <behaviour id="QBTopicAssociationBehaviour"/>
+        </interface>
+         <interface id="AssessmentManagement">
+            <layout id="AssessmentManagementLayout"/>
         </interface>
    </role>
 </roles>

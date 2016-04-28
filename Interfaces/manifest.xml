@@ -86,4 +86,12 @@
         type="Interface" zip="NotebookAttach.zip"/>
     <interface id="QBManagement" title="LMS Question Bank Management"
         type="Interface" zip="QBManagement.zip"/>
+    <interface id="QBItemManagement" title="LMS Question Bank Item Management"
+        type="Interface" zip="QBItemManagement.zip"/>
+    <interface id="TopicManagement" title="LMS Assessment Topic Management"
+        type="Interface" zip="TopicManagement.zip"/>
+    <interface id="QBTopicAssociation" title="LMS Question Bank Topic Association"
+        type="Interface" zip="QBTopicAssociation.zip"/>
+    <interface id="AssessmentManagement" title="LMS Assessment Management"
+        type="Interface" zip="AssessmentManagement.zip"/>
 </manifest>
