@@ -278,5 +278,17 @@
          <interface id="AssessmentManagement">
             <layout id="AssessmentManagementLayout"/>
         </interface>
-   </role>
+         <interface id="AssessmentDefinition">
+            <layout id="AssessmentDefinitionLayout"/>
+            <content id="AssessmentDefinitionContent"/>
+            <style id="AssessmentDefinitionStyle"/>
+            <behaviour id="AssessmentDefinitionBehaviour"/>
+        </interface>
+         <interface id="AssessmentRegByUser">
+            <layout id="AssessmentRegByUserLayout"/>
+            <content id="AssessmentRegByUserContent"/>
+            <style id="AssessmentRegByUserStyle"/>
+            <behaviour id="AssessmentRegByUserBehaviour"/>
+        </interface>
+  </role>
 </roles>

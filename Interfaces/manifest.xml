@@ -94,4 +94,8 @@
         type="Interface" zip="QBTopicAssociation.zip"/>
     <interface id="AssessmentManagement" title="LMS Assessment Management"
         type="Interface" zip="AssessmentManagement.zip"/>
+    <interface id="AssessmentDefinition" title="LMS Assessment Definition"
+        type="Interface" zip="AssessmentDefinition.zip"/>
+    <interface id="AssessmentRegByUser" title="LMS Assessment Registration By User"
+        type="Interface" zip="AssessmentRegByUser.zip"/>
 </manifest>
