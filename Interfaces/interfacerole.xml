@@ -290,5 +290,23 @@
             <style id="AssessmentRegByUserStyle"/>
             <behaviour id="AssessmentRegByUserBehaviour"/>
         </interface>
-  </role>
+         <interface id="AssessmentRegByGroup">
+            <layout id="AssessmentRegByGroupLayout"/>
+            <content id="AssessmentRegByGroupContent"/>
+            <style id="AssessmentRegByGroupStyle"/>
+            <behaviour id="AssessmentRegByGroupBehaviour"/>
+        </interface>
+        <interface id="AsmtResultNotificationMgmt">
+            <layout id="AsmtResultNotificationMgmtLayout"/>
+            <content id="AsmtResultNotificationMgmtContent"/>
+            <style id="AsmtResultNotificationMgmtStyle"/>
+            <behaviour id="AsmtResultNotificationMgmtBehaviour"/>
+        </interface>
+        <interface id="ConfigureMailServer">
+            <layout id="ConfigureMailServerLayout"/>
+            <content id="ConfigureMailServerContent"/>
+            <style id="ConfigureMailServerStyle"/>
+            <behaviour id="ConfigureMailServerBehaviour"/>
+        </interface>
+   </role>
 </roles>

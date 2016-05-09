@@ -98,4 +98,10 @@
         type="Interface" zip="AssessmentDefinition.zip"/>
     <interface id="AssessmentRegByUser" title="LMS Assessment Registration By User"
         type="Interface" zip="AssessmentRegByUser.zip"/>
+    <interface id="AssessmentRegByGroup" title="LMS Assessment Registration by Group"
+        type="Interface" zip="AssessmentRegByGroup.zip"/>
+    <interface id="AsmtResultNotificationMgmt" title="LMS Assessment Result Notification Management"
+        type="Interface" zip="AsmtResultNotificationMgmt.zip"/>
+    <interface id="ConfigureMailServer" title="LMS Mail Server Configuration"
+        type="Interface" zip="ConfigureMailServer.zip"/>
 </manifest>
