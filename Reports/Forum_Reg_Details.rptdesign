@@ -19,7 +19,8 @@
     <data-sources>
         <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="2">
             <property name="odaDriverClass">com.mysql.jdbc.Driver</property>
-            <property name="odaURL">jdbc:mysql://localhost/learnityapplication_new</property>
+            <property name="odaURL">jdbc:mysql://localhost/learnityframework2</property>
+            <property name="odaUser">root</property>
             <property name="odaJndiName">java:comp/env/jdbc/learnityDB1</property>
         </oda-data-source>
     </data-sources>
@@ -92,7 +93,12 @@
                     <property name="nativeDataType">12</property>
                 </structure>
             </list-property>
-            <property name="queryText"></property>
+            <property name="queryText">select .forum.forum_name,concat(.student_details.first_name,.student_details.middle_name,.student_details.sname),.user_forum_association.registered_by
+from user_forum_association,student_details,forum
+where .forum.forum_id=.user_forum_association.forum_id 
+and .user_forum_association.student_id=.student_details.student_id
+
+and forum.forum_id = ?</property>
         </oda-data-set>
     </data-sets>
     <page-setup>
@@ -150,8 +156,8 @@
                                 <expression name="expression">dataSetRow["forum_name"]</expression>
                             </structure>
                             <structure>
-                                <property name="name">concat(student_details.first_name,student_details.middle_name,student_details.sname)</property>
-                                <expression name="expression">dataSetRow["concat(student_details.first_name,student_details.middle_name,student_details.sname)"]</expression>
+                                <property name="name">concat(.student_details.first_name,.student_details.middle_name,.student_details.sname)</property>
+                                <expression name="expression">dataSetRow["concat(.student_details.first_name,.student_details.middle_name,.student_details.sname)"]</expression>
                             </structure>
                             <structure>
                                 <property name="name">registered_by</property>
@@ -197,7 +203,7 @@
                                 </cell>
                                 <cell id="37">
                                     <data id="38">
-                                        <property name="resultSetColumn">concat(student_details.first_name,student_details.middle_name,student_details.sname)</property>
+                                        <property name="resultSetColumn">concat(.student_details.first_name,.student_details.middle_name,.student_details.sname)</property>
                                     </data>
                                 </cell>
                                 <cell id="39">
