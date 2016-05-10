@@ -497,12 +497,12 @@
 
 	<servlet-mapping>
 		<servlet-name>learnityasmtserver.assessmentadmin.standaloneasmt.SendMailAll</servlet-name>
-		<url-pattern>/servlet/learnityasmtserver.assessmentadmin.standaloneasmt.SenaMailAll</url-pattern>
+		<url-pattern>/servlet/learnityasmtserver.assessmentadmin.standaloneasmt.SendMailAll</url-pattern>
 	</servlet-mapping>
 
 	<servlet-mapping>
 		<servlet-name>learnityasmtserver.assessmentadmin.standaloneasmt.SendMailAllServlet</servlet-name>
-		<url-pattern>/servlet/learnityasmtserver.assessmentadmin.standaloneasmt.SenaMailAllServlet</url-pattern>
+		<url-pattern>/servlet/learnityasmtserver.assessmentadmin.standaloneasmt.SendMailAllServlet</url-pattern>
 	</servlet-mapping>
 
 	<servlet-mapping>
