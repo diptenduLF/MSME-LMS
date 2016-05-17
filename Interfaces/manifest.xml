@@ -104,4 +104,8 @@
         type="Interface" zip="AsmtResultNotificationMgmt.zip"/>
     <interface id="ConfigureMailServer" title="LMS Mail Server Configuration"
         type="Interface" zip="ConfigureMailServer.zip"/>
+    <interface id="UnitCompletionReport" title="LMS Unit Completion Report"
+        type="Interface" zip="UnitCompletionReport.zip"/>
+    <interface id="AssessmentResult" title="LMS Assessment Results"
+        type="Interface" zip="AssessmentResult.zip"/>
 </manifest>

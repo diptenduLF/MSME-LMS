@@ -308,5 +308,17 @@
             <style id="ConfigureMailServerStyle"/>
             <behaviour id="ConfigureMailServerBehaviour"/>
         </interface>
+        <interface id="UnitCompletionReport">
+            <layout id="UnitCompletionReportLayout"/>
+            <content id="UnitCompletionReportContent"/>
+            <style id="UnitCompletionReportStyle"/>
+            <behaviour id="UnitCompletionReportBehaviour"/>
+        </interface>
+        <interface id="AssessmentResult">
+            <layout id="AssessmentResultLayout"/>
+            <content id="AssessmentResultContent"/>
+            <style id="AssessmentResultStyle"/>
+            <behaviour id="AssessmentResultBehaviour"/>
+        </interface>
    </role>
 </roles>
