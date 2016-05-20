@@ -87,14 +87,23 @@
 			deliverysequence="23" filename="jquery.contextmenu.js"
 			assetpath="../coreadmin/resource/jQgrid_plugins/" />
 		<asset type="js" deliverymode="URIPath" pagelocation="BOH"
-			deliverysequence="34" filename="jquery.tablednd.js"
+			deliverysequence="24" filename="jquery.tablednd.js"
 			assetpath="../coreadmin/resource/jQgrid_plugins/" />
 		<asset type="js" deliverymode="URIPath" pagelocation="BOH"
-			deliverysequence="35" filename="ui.multiselect.js"
+			deliverysequence="25" filename="ui.multiselect.js"
 			assetpath="../coreadmin/resource/jQgrid_plugins/" />
 
 		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="26" filename="ui.custom-jQgrid-ui.css" assetpath="../coreadmin/resource/app/" />
+
+		<asset type="js" deliverymode="URIPath" pagelocation="BOH"
+			deliverysequence="27" filename="jquery-ui-sliderAccess.js" assetpath="../coreadmin/resource/jquery-ui/" />
+
+		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
+			deliverysequence="28" filename="jquery-ui-timepicker-addon.min.css" assetpath="../coreadmin/resource/jquery-ui/" />
+
+		<asset type="js" deliverymode="URIPath" pagelocation="BOH"
+			deliverysequence="29" filename="jquery-ui-timepicker-addon.min.js" assetpath="../coreadmin/resource/jquery-ui/" />
 
 	</framework-asset-delivery>
 </application-template>
