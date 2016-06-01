@@ -36,6 +36,7 @@
         <interface id="PortalAssessment">
             <layout id="portalasmtgridlayout"/>
             <content id="portalasmtgridcontent"/>
+            <style id="portalasmtgridstyle"/>
             <behaviour id="portalasmtgridbehaviour"/>
         </interface>
         <interface id="AssessmentDelivery">
