@@ -4,10 +4,10 @@
 	title="GridTreeNew" UIframework="jQueryUI" BlockUItimeout="500">
 
 	<application-defaults>
-		<configuration-section>
-			<attribute name="ThemeID" defaultvalue="learnity"></attribute>
+<!-- 		<configuration-section>
+			<attribute name="ThemeID" defaultvalue="materialize_theme"></attribute>
 		</configuration-section>
-		<class name="inputtext">
+ -->		<class name="inputtext">
 			<section name="structure">
 				<attribute name="size" defaultvalue="20"></attribute>
 			</section>
@@ -66,9 +66,9 @@
 
 		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="17" filename="ui.multiselect.css" assetpath="../coreadmin/themes/" />
-		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
+<!-- 		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="18" filename="main.css" assetpath="../coreadmin/css/" />
-		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
+ -->		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="19" filename="learnity1_main.css" assetpath="../coreadmin/css/" />
 
 		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
@@ -104,6 +104,9 @@
 
 		<asset type="js" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="29" filename="jquery-ui-timepicker-addon.min.js" assetpath="../coreadmin/resource/jquery-ui/" />
+
+		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
+			deliverysequence="30" filename="main.css" assetpath="../coreadmin/css/" />
 
 	</framework-asset-delivery>
 </application-template>
