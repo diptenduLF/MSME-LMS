@@ -108,5 +108,8 @@
 		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
 			deliverysequence="30" filename="main.css" assetpath="../coreadmin/css/" />
 
+		<asset type="css" deliverymode="URIPath" pagelocation="BOH"
+			deliverysequence="31" filename="font-awesome.min.css" assetpath="../coreadmin/resource/font-awesome-4.7.0/css/" />
+
 	</framework-asset-delivery>
 </application-template>
